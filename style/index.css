@@ -1,1 +1,124 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
+
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration:none;
+}
+h1{
+    font-size:5rem;
+    font-family: 'Chelsea Market', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+section{
+    padding:4% 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.home{
+    padding: 1%;
+    width: 130px;
+    text-align: center;
+    border: .1rem solid black;
+}
+.about {
+    padding: 1%;
+    width: 130px;
+    text-align: center;
+    border: .1rem solid black;
+}
+.content {
+    padding: 1%;
+    width: 130px;
+    text-align: center;
+    border: .1rem solid black;
+}
+.projects {
+    padding: 1%;
+    width: 130px;
+    text-align: center;
+    border: .1rem solid black;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    padding: 1%;
+}
+.introduction {
+    margin: 1% 10%;
+    text-align: center;
+    padding: 1%;
+}
+.main {
+    background-image: url('https://i.picsum.photos/id/282/200/300.jpg?hmac=CVnHWoW4uSir_3zYiJzNPVs8XMSyf968WjkWvPlwu3g');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.lowermain-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin-top: 0;
+    padding: 1%;
+}
+
+.lowermain p{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    width:20%
+    
+    
+}
+footer {
+    background-color: lightgrey;
+    padding: 4%;
+    display:flex;
+    justify-content: center;
+}
+
+button {
+    padding: 2%;
+    width: 225px;
+}
