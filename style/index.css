@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+
 }
 
 /*General Styles*/
@@ -43,6 +43,7 @@ h1{
     font-family: 'Chelsea Market', cursive;
     display: flex;
     justify-content: center;
+    padding: 1%;
 }
 section{
     padding:4% 0;
@@ -50,46 +51,65 @@ section{
 nav {
     display: flex;
     justify-content: center;
+    padding: 1%;
 }
 .home{
     padding: 1%;
     width: 130px;
     text-align: center;
+    border: .1rem solid black;
 }
 .about {
     padding: 1%;
     width: 130px;
     text-align: center;
+    border: .1rem solid black;
 }
 .content {
     padding: 1%;
     width: 130px;
     text-align: center;
+    border: .1rem solid black;
 }
 .projects {
     padding: 1%;
     width: 130px;
     text-align: center;
+    border: .1rem solid black;
 }
 h2 {
     display: flex;
     justify-content: center;
     font-size: 4rem;
+    padding: 1%;
 }
 .introduction {
-    margin: 0 10%;
+    margin: 1% 10%;
+    text-align: center;
+    padding: 1%;
 }
-.first {
- 
+.main {
+    background-image: url('https://i.picsum.photos/id/282/200/300.jpg?hmac=CVnHWoW4uSir_3zYiJzNPVs8XMSyf968WjkWvPlwu3g');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
 }
-.lowermain {
+.lowermain-div {
     display: flex;
-    align-content: flex-start;
+    justify-content: space-between;
+    padding: 0%;
+    margin-top: 0;
+    padding: 1%;
 }
 
 .lowermain p{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    width:20%
+    
+    
 }
 footer {
     background-color: lightgrey;
@@ -99,5 +119,6 @@ footer {
 }
 
 button {
-    
+    padding: 2%;
+    width: 225px;
 }
