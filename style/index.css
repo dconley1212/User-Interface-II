@@ -129,5 +129,25 @@ button {
 }
 
 @media (max-width: 500px) {
+
+    h1 {
+        flex-direction: column;
+        text-align: center;
+    }
     
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .introduction
+
+
+
 }
