@@ -98,6 +98,7 @@ h2 {
 .lowermain-div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0%;
     margin-top: 0;
     padding: 1%;
@@ -105,12 +106,12 @@ h2 {
 
 .lowermain p{
     display: flex;
+    text-align: left;
     align-items: center;
-    margin-right: 0;
-    width:20%
-    
-    
+    margin-right: 7%;
+    width:10% 
 }
+
 footer {
     background-color: lightgrey;
     padding: 4%;
@@ -125,6 +126,9 @@ button {
 /*media queries*/
 
 @media (max-width: 800px) {
+    h1{
+        font-size: 8rem;
+    }
     nav {
         flex-direction: column;
         align-items: center;
@@ -133,25 +137,48 @@ button {
     .home {
         background-color: black;
         color: white;
+        font-size: 3rem;
+        border: .3rem solid black;
+        width: 30%;
+    }
+
+    .about{
+        font-size: 3rem;
+        border: .3rem solid black;
+        width: 30%;
+    }
+    .content {
+        font-size: 3rem;
+        border: .3rem solid black;
+        width: 30%;
+    }
+    .projects{
+        font-size: 3rem;
+        border: .3rem solid black;
+        width: 30%;
     }
 
     h2{
         width: 100%;
+        padding: 2%;
+        font-size: 6rem;
     }
 
     .introduction {
         flex-direction: row;
-        width: 55%;
+        width: 80%;
         text-align: left;
-        margin-left: 25%;
+        margin-left: 10%;
+        font-size: 2rem;
     }
     .main {
-        margin: 3% 8%;
+        margin: 3% 10%;
     }
 
     .lowermain-div {
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
     }
     .lowermain-div img {
         width: 44%;
@@ -163,12 +190,19 @@ button {
         text-align: center;
         padding: 8%;
         width: 100%;
+        margin: 0 7%;
+        font-size: 2rem;
+    }
+
+    footer {
+        padding: 10%;
     }
 
     button {
         background-color: white;
         padding: 4%;
         width: 40%;
+        font-size: 2rem;
     }
 }
 
@@ -177,6 +211,7 @@ button {
     h1 {
         flex-direction: row;
         text-align: center;
+        font-size: 5.2rem;
     }
     
     nav {
@@ -187,18 +222,39 @@ button {
     .home {
         background-color: black;
         color: white;
+        font-size: 1.8rem;
+        border: .2rem solid black;
+        width: 30%;
+    }
+
+    .about {
+        font-size: 1.8rem;
+        border: .2rem solid black;
+        width: 30%;
+    }
+    .content {
+        font-size: 1.8rem;
+        border: .2rem solid black;
+        width: 30%;
+    }
+    .projects {
+        font-size: 1.8rem;
+        border: .2rem solid black;
+        width: 30%;
     }
 
 
     h2 {
         flex-direction: row;
         text-align: center;
+        font-size: 3.8rem;
     }
     
     .introduction {
         flex-direction: row;
         margin-left: 10%;
         width: 85%;
+        font-size: 1.4rem;
     }
 
     .main {
@@ -209,6 +265,7 @@ button {
    .lowermain-div{
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
 
     }
 
@@ -217,15 +274,12 @@ button {
       margin-left: 2.5%;
       margin-right: 2.5%;
     }
-
     .lowermain-div p {
-        flex-direction: row;
-        width: 100%;
         text-align: center;
-        padding: 8%;
-
+        align-items: center;
+        margin: 2.5%;
+        font-size: 1.4rem;
     }
-   
     footer {
         padding: 12%;
     }
@@ -234,6 +288,7 @@ button {
         background-color: white;
         padding: 3%;
         width: 35%;
+        font-size: 1.4rem;
     }
 
 }
