@@ -122,3 +122,12 @@ button {
     padding: 2%;
     width: 225px;
 }
+/*media queries*/
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+    
+}
